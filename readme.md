@@ -1,27 +1,45 @@
-# Google Sheet to External Database Integration
+# Google Sheet Extension For Capri Ai!
 
-This script is designed to send data from a Google Sheet to an external database. It uses Google Apps Script, which is a scripting language for Google Sheets, to send an HTTP request to an external API with the data from the sheet.
+This script is designed to send data from a Google Sheet to our Capri ML Database. It uses Google Apps Script, which is a scripting language for Google Sheets, to send an HTTP request to an external API with the data from the sheet.
 
 ## Installation
 
 To use this script, follow these steps:
 
 1. Open your Google Sheet.
-2. Click on the **Tools** menu and select **Script editor**.
-3. Create a new script file or open an existing one.
+
+2. Click on the **Extensions** menu and select **Apps Script**.
+![Sheets Extension](https://storage.googleapis.com/paint-logo/sheets_extensions_appsript.png)
+
+3. You should be taken to a code editor screen.
+
 4. Copy and paste the code from this repository into the script editor.
-5. Replace the `url` variable in the script with the URL of your external database.
-6. Modify the `capri_token` variable with your own token to authenticate with the database.
-7. Save the script by clicking on the **File** menu and selecting **Save**.
+![Code Editor](https://storage.googleapis.com/paint-logo/sheets_code_editor.png)
 
-## Usage
+5. Modify the `capri_token` variable with your own token to authenticate with the database.
 
-Once you have installed the script, it will automatically send an HTTP request to your external database whenever a row is updated in your Google Sheet. The script will send an object containing all the data in the sheet, along with the row number that was updated and the spreadsheet ID.
+7. Save the script by clicking on the **Save** button.
 
-## License
+8. In the top right, click **Deployments**
 
-This script is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+9. Click **New Deployment**
+![New Deployment](https://storage.googleapis.com/paint-logo/sheets_new_deployment.png)
 
-## Contributing
+10. For Deployment Type (little gear in the top left), click **web app**
+![Deployment Type](https://storage.googleapis.com/paint-logo/sheets_deployment_type.png)
 
-If you would like to contribute to this script, please open an issue or a pull request on the [GitHub repository](https://github.com/yourusername/your-repository).
+11. In the **Description** field, just enter "New deployment" and hit "Deploy" in the bottom right
+
+12. On the left-hand menu, click on the **Triggers** icon (small clock icon)
+![Deployment Trigger](https://storage.googleapis.com/paint-logo/sheet_trigger.png)
+
+13. Create a new trigger
+    
+14. Make sure your trigger settings have the following settings:
+    - **Choose which function to run** is selected to "sendHttpRequest"
+    - **Select event type** is set to "onEdit"
+    - Click "Save" in the bottom right. **Grant permissions if asked!**
+    ![Trigger Settings](https://storage.googleapis.com/paint-logo/apps_script_trigger.png)
+    
+
+
