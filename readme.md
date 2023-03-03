@@ -2,9 +2,9 @@
 
 This script is designed to send data from a Google Sheet to our Capri ML Database. It uses Google Apps Script, which is a scripting language for Google Sheets, to send an HTTP request to an external API with the data from the sheet.
 
-[You can sign up for this extension here!](https://systems.capriai.us/knowledge){:target="_blank"}
+[You can sign up for this extension here!](https://systems.capriai.us/knowledge)
 
-[Learn more about this extension here!](https://youtu.be/Lj9lMDHGvJw){:target="_blank"}
+[Learn more about this extension here!](https://youtu.be/Lj9lMDHGvJw)
 ## Installation
 
 To use this script, follow these steps:
