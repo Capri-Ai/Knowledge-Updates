@@ -32,7 +32,7 @@ function sendHttpRequest(e) {
       task : 'update',
       spreadsheetId: spreadsheetId,
       data: data,
-      capri_token : '<YOUR CAPRI TOKEN>'
+      capri_token : 'YOUR CAPRI TOKEN'
     }),
     headers: {
       "Content-Type": "application/json",
