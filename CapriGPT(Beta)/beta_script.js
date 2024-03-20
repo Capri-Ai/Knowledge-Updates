@@ -1,6 +1,6 @@
 function sendHttpRequest(e) {
     // Replace this with the URL of your external database
-    var url = "https://systems.capriai.us/knowledge/update";
+    var url = "https://api.capriai.us/google-sheet/webhook/update";
   
     // Get the active sheet and range
     var sheet = SpreadsheetApp.getActiveSheet();
