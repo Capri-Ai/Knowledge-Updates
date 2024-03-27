@@ -4,7 +4,7 @@ This script is designed to send data from a Google Sheet to our Capri ML Databas
 
 ### [If you'd like a video walkthrough, you can find it here](https://systems.capriai.us/knowledge)
 
-[You can sign up for this extension here!](https://systems.capriai.us/knowledge)
+[You can sign up for this extension here!](https://beta.capriai.us)
 
 [Learn more about this extension here!](https://youtu.be/Lj9lMDHGvJw)
 ## Installation
